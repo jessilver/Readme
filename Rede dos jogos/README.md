@@ -59,9 +59,22 @@ Este projeto foi desenvolvido utilizando XAMPP 3.3.0,PHP, HTML, CSS, Java Script
   ```bash
   feat/nome-da-funcionalidade
   ```
-
-### Ao corrigir um nova bug (Bug)
-Bug-01-nome-do-bug
+- Correção de bug:
+  ```bash
+  fix/nome-do-bug
+  ```
+- Melhoria de código:
+  ```bash
+  refactor/nome-do-refactor
+  ```
+- Documentação:
+  ```bash
+  docs/nome-da-documentação
+  ```
+- Teste:
+  ```bash
+  test/nome-do-teste
+  ```
 
 # Tags
 <small>[voltar para o Sumário](#sumario)</small><br>
