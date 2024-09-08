@@ -9,8 +9,6 @@
 - [Tags](#tags)
 - [Requisítos do sistema](#requisitos-do-sistema)
 - [Planejamentos](#planejamentos)
-- [Padrão de Nomes para Features](#padrao-de-nomes-para-features)
-- [Padrão de Nomes de Variáveis](#padrao-de-nomes-variaveis)
 - [Como Iniciar o Projeto](#como-iniciar-o-projeto)
 - [Criar uma Nova Branch para uma Feature](#criar-uma-nova-branch-para-uma-feature)
 - [Realizar um Push](#realizar-um-push)
