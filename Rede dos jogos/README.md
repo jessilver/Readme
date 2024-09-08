@@ -51,6 +51,8 @@ Este projeto foi desenvolvido utilizando XAMPP 3.3.0,PHP, HTML, CSS, Java Script
 ## Video do projeto funcionando
 <small>[voltar para o Sumário](#sumario)</small><br>
 
+...
+
 # Padroes
 <small>[voltar para o Sumário](#sumario)</small><br>
 
@@ -145,9 +147,9 @@ Seguir a [Semantic Versioning (SemVer)](https://semver.org/):
   ?>
   ```
 
-
 # Tags
 <small>[voltar para o Sumário](#sumario)</small><br>
+
 - R01 --> Requisito funcional número 01
 - NF01 --> Requisito não funcional número 01
 - P01/01 --> Planejamento número 01, parte 01
@@ -161,7 +163,6 @@ Seguir a [Semantic Versioning (SemVer)](https://semver.org/):
 - R02 - Entar
    - O sistema deve permitir que o usuário consiga entrar
    
-
 ## Não funcionais
 - NF01 - Segurança
    - O sistema deve garantir que os dados dos usuários sejam armazenados de forma segura.
@@ -200,81 +201,11 @@ Criação dos protótipos das telas para auxiliar o desenvolvimento e apresentar
 
 ## Configurando o Ambiente
 
-1. **Certifique-se que tem o Python e o Git instalado:**
-
-   - **Python:**
-   - No seu cmd execute o seguinte coamndo:
-   ```bash
-     python --version
-   ```
-   - Se não estiver instaldo: [Python](https://www.python.org/downloads/)
-   - **Git:**
-   - No seu cmd execute o seguinte coamndo:
-   ```bash
-     git --version
-   ```
-   - Se não estiver instaldo: [Git](https://git-scm.com/downloads)
-
-2. **Importando repositório**
-
-   - Em um local de sua preferência cria uma nova parte com o nome que preferir
-   - Abra essa pasta com o VS Code (Ou outro editor, mas este tutorial é usando o vs)
-   - Abra o Git Bash do vs code e digite o seguinte codigo:
-   ```bash
-     git clone https://github.com/jessilver/Engenharia-de-Software.git
-   ```
-
-3. **Criando a Máquina virtual:**
-
-   - No próprio terminal do VS execute o seguinte comando:
-   ```bash
-     cd Engenharia-de-Software/ProjetoCertificadoPdf/geradoPdf
-   ```
-   - mude de branch com o seguinte comando:
-   ```bash
-     git checkout develop
-   ```
-   - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
-   ```bash
-     py -m venv venv
-   ```
-   - Para iniciar a maquina virtual execute os seguintes comandos:
-   ```bash
-     cd venv/Scripts
-   ```
-   ```bash
-     activate  
-   ```
-   - Para voltar para o projeto execute os seguintes comandos:
-   ```bash
-     cd .. 
-   ```
-   ```bash
-     cd .. 
-   ```
-
-4. **Instalando os requisitos na Máquina Virtual:**
-
-   - No seu cmd execute o seguinte coamndo:
-   ```bash
-     pip install -r requirements.txt
-   ```
-
-5. **Iniciando o servidor:**
-
-   - Mode para o terminao padrão e execute o seguinte comando:
-   ```bash
-     cd Engenharia-de-Software/ProjetoCertificadoPdf/geradoPdf
-   ```
-   - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
-   ```bash
-     py manage.py runserver 
-   ```
-   - Em seguida va para: http://127.0.0.1:8000/
+...
 
 ## Video para Melhor visualizacao
 
-https://github.com/user-attachments/assets/51ce9e9c-6f54-412a-9181-ff086ee55e85
+...
 
 ## Criar uma Nova Branch para uma Feature
 <small>[voltar para o Sumário](#sumario)</small><br>
@@ -331,7 +262,7 @@ Exemplo:
 ## Fazendo o Pull Request
 <small>[voltar para o Sumário](#sumario)</small><br>
 
-1. Na pagina inicial do projeto no Git Hub: [Engenharia-de-Software](https://github.com/jessilver/Engenharia-de-Software)
+1. Na pagina inicial do projeto no Git Hub: Engenharia-de-Software
    - Clique em `Pull requests`
 
 ![pullrequest1](https://github.com/user-attachments/assets/42c50623-87b8-470c-8499-68dbb560b337)
