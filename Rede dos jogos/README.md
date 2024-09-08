@@ -104,11 +104,11 @@ Seguir a [Semantic Versioning (SemVer)](https://semver.org/):
 - Patch: Correções de bugs compatíveis **(0.0.1)**
 
 ## Padrões de Revisão de Código (Code Review)
-Definir um processo formal de revisão de código, como:
+- Cada pull request deve ter pelo menos uma revisão.
 
 ## Convenção de Nomeação
 - ### camelCase
-  - Usado para variáveis e funções.
+  - Usado para nomear variáveis e funções.
   - O primeiro termo é minúsculo, e cada palavra subsequente começa com uma letra maiúscula.
   Ex:
   ```php
@@ -121,10 +121,30 @@ Definir um processo formal de revisão de código, como:
   }
   ?>
   ```
+- ### PascalCase
+  - usado para nomear classes.
+  - Cada palavra começa com letra maiúscula, incluindo a primeira.
+  Ex:
+  ```php
+  <?php
+  class UsuarioAtivo {
+      // código da classe
+  }
+  ?>
+  ```
+- ### UPPER_CASE 
+  - usado para nomear costantes.
+  - O PHP permite definir constantes com a função define ou usando a palavra-chave const.
+  Ex:
+  ```php
+  <?php
+  define('TAXA_CONVERSAO', 0.12);
+  const MAXIMO_TENTATIVAS = 5;
+  
+  echo TAXA_CONVERSAO; // Output: 0.12
+  ?>
+  ```
 
-Exemplo:
-
-- Cada pull request deve ter pelo menos uma revisão.
 
 # Tags
 <small>[voltar para o Sumário](#sumario)</small><br>
