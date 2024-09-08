@@ -106,6 +106,24 @@ Seguir a [Semantic Versioning (SemVer)](https://semver.org/):
 ## Padrões de Revisão de Código (Code Review)
 Definir um processo formal de revisão de código, como:
 
+## Convenção de Nomeação
+- ### camelCase
+  - Usado para variáveis e funções.
+  - O primeiro termo é minúsculo, e cada palavra subsequente começa com uma letra maiúscula.
+  Ex:
+  ```php
+  <?php
+  $valorTotalCompra = 100;
+  $nomeDoUsuario = "João";
+  
+  function calcularTotal($precoUnitario, $quantidade) {
+      return $precoUnitario * $quantidade;
+  }
+  ?>
+  ```
+
+Exemplo:
+
 - Cada pull request deve ter pelo menos uma revisão.
 
 # Tags
@@ -154,23 +172,6 @@ Criação dos protótipos das telas para auxiliar o desenvolvimento e apresentar
 - [Criar protótipo da tela de cadastro - **Jônatas De Sousa Madeira**](https://trello.com/c/Kp6HxBxV/11-s-02-bck-02-criar-prot%C3%B3tipo-da-tela-de-cadastroo)
 - [Criar protótipo da tela de perfil do usuário - **Jesse Eliseu Nunes Da Silva**](https://trello.com/c/Tp2EiiqJ/12-s-02-bck-03-criar-prot%C3%B3tipo-da-tela-de-perfil-do-usu%C3%A1rio)
 - [Criar protótipo da tela de visualizar de perfil de outros usuários - **Arthur Lima Duarte**](https://trello.com/c/tgOBSy8p/13-s-02-bck-04-criar-prot%C3%B3tipo-da-tela-de-visualizar-de-perfil-de-outros-usu%C3%A1rios)
-
-## Padrao de Nomes para Features
-<small>[voltar para o Sumário](#sumario)</small><br>
-
-As features e correções devem seguir o padrão abaixo para facilitar o entendimento e rastreamento no projeto:
-- Feat/issue-numero-da-issue-descricao-da-issue
-
-### Exemplo
-
-`Feat/issue-01-correcao-de-bugs`
-
-**Observação:** Não utilizar caracteres especiais. O mesmo padrão aplicado na criação de nomes de variáveis.
-
-## Padrao de Nomes de Variaveis
-<small>[voltar para o Sumário](#sumario)</small><br>
-
-- camelCase
 
 # Como Iniciar o Projeto
 <small>[voltar para o Sumário](#sumario)</small><br>
