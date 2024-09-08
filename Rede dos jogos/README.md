@@ -97,7 +97,7 @@ Este projeto foi desenvolvido utilizando XAMPP 3.3.0,PHP, HTML, CSS, Java Script
   test: Descrição dos testes adicionados/alterados
   ```
 ## Padrões de Versionamento (SemVer)
-Seguir a Semantic Versioning (SemVer):
+Seguir a [Semantic Versioning (SemVer)](https://semver.org/):
 
 - Major: Alterações incompatíveis com versões anteriores **(1.x.x)**
 - Minor: Novas funcionalidades compatíveis com versões anteriores **(0.1.x)**
