@@ -75,6 +75,38 @@ Este projeto foi desenvolvido utilizando XAMPP 3.3.0,PHP, HTML, CSS, Java Script
   ```bash
   test/nome-do-teste
   ```
+## Padrões de Commits
+- Funcionalidade:
+  ```bash
+  feat: Descrição curta da funcionalidade
+  ```
+- Correção de bug:
+  ```bash
+  fix: Descrição do bug corrigido
+  ```
+- Refatoração:
+  ```bash
+  refactor: Descrição da refatoração de código
+  ```
+- Documentação:
+  ```bash
+  docs: Descrição da alteração na documentação
+  ```
+- Teste:
+  ```bash
+  test: Descrição dos testes adicionados/alterados
+  ```
+## Padrões de Versionamento (SemVer)
+Seguir a Semantic Versioning (SemVer):
+
+- Major: Alterações incompatíveis com versões anteriores **(1.x.x)**
+- Minor: Novas funcionalidades compatíveis com versões anteriores **(0.1.x)**
+- Patch: Correções de bugs compatíveis **(0.0.1)**
+
+## Padrões de Revisão de Código (Code Review)
+Definir um processo formal de revisão de código, como:
+
+- Cada pull request deve ter pelo menos uma revisão.
 
 # Tags
 <small>[voltar para o Sumário](#sumario)</small><br>
