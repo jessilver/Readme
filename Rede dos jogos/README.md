@@ -55,7 +55,10 @@ Este projeto foi desenvolvido utilizando XAMPP 3.3.0,PHP, HTML, CSS, Java Script
 <small>[voltar para o Sumário](#sumario)</small><br>
 
 ## Padrões de Nomeação de Branches (Ramos)
-- Funcionalidade nova: ```feat/nome-da-funcionalidade```
+- Funcionalidade nova:
+  ```bash
+  feat/nome-da-funcionalidade
+  ```
 
 ### Ao corrigir um nova bug (Bug)
 Bug-01-nome-do-bug
