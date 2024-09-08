@@ -34,7 +34,7 @@
 ## Sobre o Projeto
 <small>[voltar para o Sumário](#sumario)</small><br>
 
-Este projeto foi desenvolvido utilizando XAMPP 3.3.0,PHP, HTML, CSS, Java Script, BOOTSTRAP 4, Git, e GitHub. O objetivo é criar uma aplicação web simples cuja funcionalidade é gerar um certificado com base nas estradas que o usuário fornecer, seguindo boas práticas de versionamento de código e organização de projetos.
+Este projeto foi desenvolvido utilizando XAMPP 3.3.0,PHP, HTML, CSS, Java Script, BOOTSTRAP 4, Git, e GitHub. O objetivo é criar uma aplicação web cuja funcionalidade é [ ... ], seguindo boas práticas de versionamento de código e organização de projetos.
 
 ## Tecnologias Utilizadas
 
