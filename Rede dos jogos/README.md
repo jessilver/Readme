@@ -4,9 +4,11 @@
 
 - [Informações Acadêmicas](#informacoes-academicas)
 - [Sobre o Projeto](#sobre-o-projeto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Video onde mostra o projeto funcionando](#video-onde-mostra-o-projeto-funcionando)
-- [Requisitos Implementados](#requisitos-implementados)
+- [Video do projeto funcionando](#video-do-projeto-funcionando)
+- [Padrôes](#padroes)
+- [Tags](#tags)
+- [Requisítos do sistema](#requisitos-do-sistema)
+- [Planejamentos](#planejamentos)
 - [Padrão de Nomes para Features](#padrao-de-nomes-para-features)
 - [Padrão de Nomes de Variáveis](#padrao-de-nomes-variaveis)
 - [Como Iniciar o Projeto](#como-iniciar-o-projeto)
@@ -35,7 +37,6 @@
 Este projeto foi desenvolvido utilizando XAMPP 3.3.0,PHP, HTML, CSS, Java Script, BOOTSTRAP 4, Git, e GitHub. O objetivo é criar uma aplicação web simples cuja funcionalidade é gerar um certificado com base nas estradas que o usuário fornecer, seguindo boas práticas de versionamento de código e organização de projetos.
 
 ## Tecnologias Utilizadas
-<small>[voltar para o Sumário](#sumario)</small><br>
 
 - **[XAMPP 3.3.0](https://www.djangoproject.com/start/):** Para execular o PHP.
 - **PHP:** Para o backend e lógica da aplicação.
@@ -47,57 +48,64 @@ Este projeto foi desenvolvido utilizando XAMPP 3.3.0,PHP, HTML, CSS, Java Script
 - **GitHub:** Hospedagem do repositório remoto.
 - **Gitflow:** Modelo de ramificação para organização do desenvolvimento. 
 
-## Video onde mostra o projeto funcionando
+## Video do projeto funcionando
 <small>[voltar para o Sumário](#sumario)</small><br>
 
-
-# Sprints
+# Padroes
 <small>[voltar para o Sumário](#sumario)</small><br>
 
-## Sprint 1: Criação de User Stories
+## Padrões de Nomeação de Branches (Ramos)
+- Funcionalidade nova: ```feat/nome-da-funcionalidade```
 
-### Valor da Sprint:  
+### Ao corrigir um nova bug (Bug)
+Bug-01-nome-do-bug
+
+# Tags
+<small>[voltar para o Sumário](#sumario)</small><br>
+- R01 --> Requisito funcional número 01
+- NF01 --> Requisito não funcional número 01
+- P01/01 --> Planejamento número 01, parte 01
+
+# Requisitos do sistema
+<small>[voltar para o Sumário](#sumario)</small><br>
+
+## Funcionais
+- R01 - Cadastrar
+   - O sistema deve permitir que o usuário consiga se cadastrar
+- R02 - Entar
+   - O sistema deve permitir que o usuário consiga entrar
+   
+
+## Não funcionais
+- NF01 - Segurança
+   - O sistema deve garantir que os dados dos usuários sejam armazenados de forma segura.
+
+# Planejamentos
+<small>[voltar para o Sumário](#sumario)</small><br>
+
+## P1/1: Criação de User Stories
+
+### Objetivo:  
 Criar User Stories para auxiliar a prototipação do projeto.
 
-### Funcionalidades:
+### Tarefas:
 
 - [Criar User Stories da tela de login - **Gabriel Fernandes Zamora**](https://trello.com/c/cIQusWVB/12-s-01-bck-01-criar-user-stories-da-tela-de-login)
 - [Criar User Stories da tela de cadastro - **Jônatas De Sousa Madeira**](https://trello.com/c/hrh2PH6P/6-s-01-bck-02-criar-user-stories-da-tela-de-cadastro)
 - [Criar User Stories da tela de perfil do usuário - **Jesse Eliseu Nunes Da Silva**](https://trello.com/c/5BZ8f5qM/7-s-01-bck-03-criar-user-stories-da-tela-de-perfil-do-usu%C3%A1rio)
 - [Criar User Stories da tela de visualizar de perfil de outros usuários - **Arthur Lima Duarte**](https://trello.com/c/osUO3Rlt/8-s-01-bck-04-criar-user-stories-da-tela-de-visualizar-de-perfil-de-outros-usu%C3%A1rios)
 
-## Sprint 2: Prototipação do projeto.
+## P1/2 2: Prototipação do projeto.
 
-### Valor da Sprint:  
+### Objetivos:  
 Criação dos protótipos das telas para auxiliar o desenvolvimento e apresentar para o cliente
 
-### Funcionalidades:
+### Tarefas:
 
 - [Criar protótipo da tela de login - **Gabriel Fernandes Zamora**](https://trello.com/c/Ip9GwK6n/10-s-02-bck-01-criar-prot%C3%B3tipo-da-tela-de-login)
 - [Criar protótipo da tela de cadastro - **Jônatas De Sousa Madeira**](https://trello.com/c/Kp6HxBxV/11-s-02-bck-02-criar-prot%C3%B3tipo-da-tela-de-cadastroo)
 - [Criar protótipo da tela de perfil do usuário - **Jesse Eliseu Nunes Da Silva**](https://trello.com/c/Tp2EiiqJ/12-s-02-bck-03-criar-prot%C3%B3tipo-da-tela-de-perfil-do-usu%C3%A1rio)
 - [Criar protótipo da tela de visualizar de perfil de outros usuários - **Arthur Lima Duarte**](https://trello.com/c/tgOBSy8p/13-s-02-bck-04-criar-prot%C3%B3tipo-da-tela-de-visualizar-de-perfil-de-outros-usu%C3%A1rios)
-
-### Requisitos Não-Funcionais
-
-1. Segurança:
-
-   - O sistema deve garantir que os dados dos alunos sejam armazenados de forma segura, utilizando encriptação para informações sensíveis como CPF e RG.
-   - O sistema deve implementar controles de acesso para garantir que apenas utilizadores autorizados possam gerar ou visualizar os PDFs.
-
-2. Desempenho:
-
-   - O sistema deve gerar o PDF em menos de 2 segundos após a solicitação.
-   - O sistema deve ser capaz de suportar a inserção simultânea de dados por múltiplos utilizadores sem comprometer o desempenho.
-
-2. Usabilidade:
-
-   - O sistema deve ter uma interface de utilizador intuitiva e fácil de usar, com campos de entrada claramente identificados e instruções claras.
-   - O sistema deve fornecer feedback imediato ao utilizador em caso de erro na inserção de dados.
-
-4. Compatibilidade:
-
-   - O sistema deve ser acessível a partir de diversos dispositivos (computadores, tablets, smartphones).
 
 ## Padrao de Nomes para Features
 <small>[voltar para o Sumário](#sumario)</small><br>
