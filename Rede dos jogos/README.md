@@ -169,7 +169,6 @@ Seguir a [Semantic Versioning (SemVer)](https://semver.org/):
 <small>[voltar para o Sumário](#sumario)</small><br>
 
 # Planejamento de Sprint - Iteração 01
-Duração da Sprint: 2 semanas (ou o período que você considerar adequado)
 
 ## Objetivo da Sprint: 
 Desenvolver as funcionalidades básicas de interação de usuário, incluindo cadastro, login, acesso ao perfil e visualização de perfil de outros usuários.
