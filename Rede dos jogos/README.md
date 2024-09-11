@@ -170,8 +170,8 @@ Seguir a [Semantic Versioning (SemVer)](https://semver.org/):
 
 # Planejamento de Sprint - Iteração 01
 
-## Objetivo da Sprint: 
-Desenvolver as funcionalidades básicas de interação de usuário, incluindo cadastro, login, acesso ao perfil e visualização de perfil de outros usuários.
+## Valor da Sprint: 
+Entregar funcionalidades básicas de interação de usuário, incluindo cadastro, login, acesso ao perfil e visualização de perfil de outros usuários.
 
 ## 1. Backlog da Sprint
 
