@@ -168,17 +168,17 @@ Seguir a [Semantic Versioning (SemVer)](https://semver.org/):
 # Planejamentos
 <small>[voltar para o Sumário](#sumario)</small><br>
 
-#Planejamento de Sprint - Iteração 01
+# Planejamento de Sprint - Iteração 01
 Duração da Sprint: 2 semanas (ou o período que você considerar adequado)
 
-##Objetivo da Sprint: 
+## Objetivo da Sprint: 
 Desenvolver as funcionalidades básicas de interação de usuário, incluindo cadastro, login, acesso ao perfil e visualização de perfil de outros usuários.
 
-##1. Backlog da Sprint
+## 1. Backlog da Sprint
 
-###Histórias de Usuário:
+### Histórias de Usuário:
 
-###Cadastro de Usuário
+### Cadastro de Usuário
 
 Como um novo usuário, quero me cadastrar no sistema para criar uma conta e poder acessar as funcionalidades disponíveis.
 Critérios de Aceitação:
@@ -187,60 +187,60 @@ Critérios de Aceitação:
 - O usuário deve receber uma confirmação de cadastro bem-sucedido.
 - Login de Usuário
 
-###Como um usuário registrado, quero fazer login para acessar minha conta.
+### Como um usuário registrado, quero fazer login para acessar minha conta.
 - Critérios de Aceitação:
 - O sistema deve permitir que o usuário insira email e senha.
 - O sistema deve autenticar o usuário e redirecioná-lo para a página principal ou perfil.
 - O sistema deve exibir mensagens de erro para credenciais inválidas.
 - Acesso ao Perfil
 
-###Como um usuário autenticado, quero acessar e visualizar meu perfil.
+### Como um usuário autenticado, quero acessar e visualizar meu perfil.
 Critérios de Aceitação:
 - O usuário deve ser redirecionado para sua página de perfil após o login.
 - O perfil deve exibir informações básicas do usuário (nome, email, etc.).
 - O usuário deve ter a opção de editar suas informações de perfil.
 - Visualização de Perfil de Outros Usuários
 
-###Como um usuário autenticado, quero visualizar o perfil de outros usuários.
+### Como um usuário autenticado, quero visualizar o perfil de outros usuários.
 Critérios de Aceitação:
 - O usuário deve ser capaz de buscar e visualizar perfis de outros usuários.
 - O perfil exibido deve mostrar informações públicas do usuário.
 - A navegação entre perfis deve ser intuitiva.
 
-##2. Tarefas
+## 2. Tarefas
 
-###Cadastro de Usuário
+### Cadastro de Usuário
 
 - Tarefa 1: Design da interface de cadastro.
 - Tarefa 2: Implementação da lógica de backend para processamento de dados de cadastro.
 - Tarefa 3: Implementação da validação de dados de entrada.
 - Tarefa 4: Implementação do envio de confirmação de cadastro.
 
-###Login de Usuário
+### Login de Usuário
 
 - Tarefa 1: Design da interface de login.
 - Tarefa 2: Implementação da lógica de autenticação.
 - Tarefa 3: Implementação de mensagens de erro para login.
 
-###Acesso ao Perfil
+### Acesso ao Perfil
 
 - Tarefa 1: Design da interface de perfil.
 - Tarefa 2: Implementação da lógica para exibir informações do perfil.
 
-###Visualização de Perfil de Outros Usuários
+### Visualização de Perfil de Outros Usuários
 
 - Tarefa 1: Design da interface de visualização de perfil de outros usuários.
 - Tarefa 2: Implementação da lógica de busca e visualização de perfis.
 
-##3. Planejamento do Trabalho
+## 3. Planejamento do Trabalho
 
-###It. 1:
+### It. 1:
 
 - Dia 1-2: Finalização do design da interface (Cadastro, Login, Perfil, Visualização).
 - Dia 3-4: Desenvolvimento das funcionalidades de Cadastro e Login.
 - Dia 5-7: Implementação da lógica de backend e validação para Cadastro e Login.
 - 
-###It. 2:
+### It. 2:
 
 - Dia 8-10: Desenvolvimento da funcionalidade de Acesso e Edição de Perfil.
 - Dia 11-12: Desenvolvimento da funcionalidade de Visualização de Perfis.
