@@ -180,7 +180,7 @@ Criar User Stories para auxiliar a prototipação do projeto.
 - [Criar User Stories da tela de perfil do usuário - **Jesse Eliseu Nunes Da Silva**](https://trello.com/c/5BZ8f5qM/7-s-01-bck-03-criar-user-stories-da-tela-de-perfil-do-usu%C3%A1rio)
 - [Criar User Stories da tela de visualizar de perfil de outros usuários - **Arthur Lima Duarte**](https://trello.com/c/osUO3Rlt/8-s-01-bck-04-criar-user-stories-da-tela-de-visualizar-de-perfil-de-outros-usu%C3%A1rios)
 
-## P1/2 2: Prototipação do projeto.
+## P1/2: Prototipação do projeto.
 
 ### Objetivos:  
 Criação dos protótipos das telas para auxiliar o desenvolvimento e apresentar para o cliente
