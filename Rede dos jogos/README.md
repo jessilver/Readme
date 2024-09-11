@@ -239,7 +239,7 @@ Critérios de Aceitação:
 - Dia 1-2: Finalização do design da interface (Cadastro, Login, Perfil, Visualização).
 - Dia 3-4: Desenvolvimento das funcionalidades de Cadastro e Login.
 - Dia 5-7: Implementação da lógica de backend e validação para Cadastro e Login.
-- 
+
 ### It. 2:
 
 - Dia 8-10: Desenvolvimento da funcionalidade de Acesso e Edição de Perfil.
