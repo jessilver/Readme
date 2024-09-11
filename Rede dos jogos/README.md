@@ -175,8 +175,6 @@ Entregar funcionalidades básicas de interação de usuário, incluindo cadastro
 
 ## 1. Backlog da Sprint
 
-### Histórias de Usuário:
-
 ### Cadastro de Usuário
 
 Como um novo usuário, quero me cadastrar no sistema para criar uma conta e poder acessar as funcionalidades disponíveis.
@@ -244,8 +242,6 @@ Critérios de Aceitação:
 - Dia 8-10: Desenvolvimento da funcionalidade de Acesso e Edição de Perfil.
 - Dia 11-12: Desenvolvimento da funcionalidade de Visualização de Perfis.
 - Dia 13-14: Testes integrados e correção de bugs.
-
-
 
 ## Iteração 01:
 
