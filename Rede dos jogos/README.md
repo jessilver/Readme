@@ -185,7 +185,7 @@ Critérios de Aceitação:
 - Login de Usuário
 
 ### Como um usuário registrado, quero fazer login para acessar minha conta.
-- Critérios de Aceitação:
+Critérios de Aceitação:
 - O sistema deve permitir que o usuário insira email e senha.
 - O sistema deve autenticar o usuário e redirecioná-lo para a página principal ou perfil.
 - O sistema deve exibir mensagens de erro para credenciais inválidas.
